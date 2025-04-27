@@ -1,1 +1,5 @@
-pip install pandas scikit-learn matplotlib seaborn yellowbrick
+pandas
+scikit-learn
+matplotlib
+seaborn
+yellowbrick
