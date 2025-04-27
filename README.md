@@ -15,27 +15,27 @@ This project focuses on customer segmentation based on the **Mall Customers** da
 
 ### Data Preprocessing
 
-- Encoded the categorical `Genre` column using Label Encoding.
+    Encoded the categorical `Genre` column using Label Encoding.
 
 ### Feature Selection
 
-- Selected the following features for clustering: `Genre`, `Age`, `Annual Income (k$)`, and `Spending Score (1-100)`.
+    Selected the following features for clustering: `Genre`, `Age`, `Annual Income (k$)`, and `Spending Score (1-100)`.
 
 ### Finding Optimal Number of Clusters
 
-- Applied the Elbow method to determine the best number of clusters.
+    Applied the Elbow method to determine the best number of clusters.
 
 ### Modeling
 
-- Built a KMeans clustering model with the optimal number of clusters.
+    Built a KMeans clustering model with the optimal number of clusters.
 
 ### Evaluation
 
-- Evaluated the model using Silhouette Score, Davies-Bouldin Score, and Calinski-Harabasz Score.
+    Evaluated the model using Silhouette Score, Davies-Bouldin Score, and Calinski-Harabasz Score.
 
 ### Visualization
 
-- Reduced data dimensions using PCA and visualized clusters with a scatter plot.
+    Reduced data dimensions using PCA and visualized clusters with a scatter plot.
 
 ### Result Export and Dashboard Design
 
